@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #F8F4F4;
+  --color-primary: #F59F00;
+  --gradient-1: linear-gradient(69.6deg, #FA9172 3.42%, #E233F1 93.22%);
+  --gradient-2: linear-gradient(69.6deg, #72F5FA 3.42%, #6F33F1 93.22%);
+  --gradient-3: linear-gradient(69.6deg, #FAEA72 3.42%, #F13D33 93.22%);
+}
+
+body {
+  font-family: 'Baloo 2', system-ui, sans-serif;
+  background: var(--color-background);
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

@@ -1,0 +1,47 @@
+:root {
+  /* Typography */
+  --font-family-primary: 'Baloo 2', system-ui, sans-serif;
+  
+  /* Font Sizes */
+  --font-size-h2: 2rem;
+  --font-size-h3: 1.125rem;
+  --font-size-body: 1rem;
+  --font-size-caption: 0.75rem;
+  
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  
+  /* Colors */
+  --color-background: #F8F4F4;
+  --color-primary: #F59F00;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-grey: #B8B8B8;
+  --color-dark-grey: #44484C;
+  
+  /* Glass Effect Gradients */
+  --gradient-1: linear-gradient(69.6deg, #FA9172 3.42%, #E233F1 93.22%);
+  --gradient-2: linear-gradient(69.6deg, #72F5FA 3.42%, #6F33F1 93.22%);
+  --gradient-3: linear-gradient(69.6deg, #FAEA72 3.42%, #F13D33 93.22%);
+  
+  /* Border Radius */
+  --radius-large: 2rem;
+  --radius-medium: 1rem;
+  --radius-small: 0.5rem;
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+}
+
+/* Dark Mode Overrides */
+[data-theme="dark"] {
+  --color-background: #1A1A1A;
+  --color-primary: #FFB526;
+  --color-white: #2A2A2A;
+  --color-grey: #666666;
+  --color-dark-grey: #999999;
+}
